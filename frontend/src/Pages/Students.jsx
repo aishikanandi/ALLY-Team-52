@@ -101,17 +101,11 @@ const StudentRow = ({ student }) => {
         <td className="p-2 flex-col justify-center text-left items-center">
             <span
                 style={{ color: "#0065C1", fontSize: "16px", textAlign: "left" }}
-                className="font-inter font-normal flex  justify-center"
-            >
-                {student.institute}
-            </span>
-            <br />
-            <span
-                style={{ color: "#5E5873BF", fontSize: "14px" }}
-                className="font-inter font-normal flex  justify-center"
+                className="bold font-inter font-normal flex  justify-center"
             >
                 {student.branch}
             </span>
+            
         </td>
         <td className="p-2 flex justify-center">
             <div
@@ -275,7 +269,7 @@ function StudentTable() {
                                         color="#0065C1"
                                         className="mr-2"
                                     />
-                                    Institue/ Branch
+                                    Branch
                                 </th>
                                 <th className="p-2 font-inter font-normal text-sm">
                                     <FontAwesomeIcon
